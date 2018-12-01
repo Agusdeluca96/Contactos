@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!-- Light/Day mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextColor">#000000</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="textcolor">#000000</item>
+        <item name="tintcolor">#000000</item>
+        <item name="contacticon">@drawable/ic_account_circle_black_24dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <!-- Dark/Night mode -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextColor">#ffffff</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="backgroundcolor">#666666</item>
+        <item name="cardbackground">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="contacticon">@drawable/ic_account_circle_white_24dp</item>
+    </style>
+
+    <!-- Toolbar application theme. -->
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+</resources>

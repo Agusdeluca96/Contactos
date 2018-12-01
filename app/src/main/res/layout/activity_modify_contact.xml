@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/backgroundcolor">
+        <include layout="@layout/toolbar_modify_contact"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/name_contact_form"
+            android:textColor="?attr/textcolor"/>
+
+        <EditText
+            android:id="@+id/firstPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/first_phone_contact_form"
+            android:textColor="?attr/textcolor"/>
+
+        <EditText
+            android:id="@+id/secondPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/second_phone_contact_form"
+            android:textColor="?attr/textcolor"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_contact_form"
+            android:textColor="?attr/textcolor"/>
+
+        <Spinner
+            android:id="@+id/contactTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:dropDownWidth="match_parent"
+            android:textColor="?attr/textcolor"
+            android:popupBackground="?attr/backgroundcolor"/>
+
+    </LinearLayout>
+</ScrollView>

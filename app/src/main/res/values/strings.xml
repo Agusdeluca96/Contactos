@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="name_contact_form">Nombre</string>
+    <string name="first_phone_contact_form">Teléfono Principal</string>
+    <string name="second_phone_contact_form">Teléfono Secundario</string>
+    <string name="email_contact_form">Correo Electronico</string>
+</resources>

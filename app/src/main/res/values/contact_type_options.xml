@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contact_type_options">
+        <item>Tipo de Contacto</item>
+        <item>Familiar</item>
+        <item>Comercial</item>
+        <item>Amigo</item>
+        <item>Otro</item>
+    </string-array>
+</resources>
